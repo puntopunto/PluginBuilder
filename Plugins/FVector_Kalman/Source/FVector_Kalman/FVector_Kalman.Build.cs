@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class FVector_Kalman : ModuleRules
+public class FVectorKalman : ModuleRules
 {
-	public FVector_Kalman(ReadOnlyTargetRules Target) : base(Target)
+	public FVectorKalman(ReadOnlyTargetRules target) : base(target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		

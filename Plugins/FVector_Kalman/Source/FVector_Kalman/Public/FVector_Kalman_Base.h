@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "FVector_Kalman_Library.generated.h"
+#include "FVector_Kalman_Base.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class FVECTOR_KALMAN_API UFVector_Kalman_Library : public UBlueprintFunctionLibrary
+class FVECTOR_KALMAN_API UFVector_Kalman_Base : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 	
