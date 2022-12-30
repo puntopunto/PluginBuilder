@@ -1,16 +1,16 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+﻿// Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "FVector_Kalman.h"
+#include "VectorKalman.h"
 
-#define LOCTEXT_NAMESPACE "FFVector_KalmanModule"
+#define LOCTEXT_NAMESPACE "FVectorKalmanModule"
 
-void FFVector_KalmanModule::StartupModule()
+void FVectorKalmanModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
 	
 }
 
-void FFVector_KalmanModule::ShutdownModule()
+void FVectorKalmanModule::ShutdownModule()
 {
 	// This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
 	// we call this function before unloading the module.
@@ -19,4 +19,4 @@ void FFVector_KalmanModule::ShutdownModule()
 
 #undef LOCTEXT_NAMESPACE
 	
-IMPLEMENT_MODULE(FFVector_KalmanModule, FVector_Kalman)
+IMPLEMENT_MODULE(FVectorKalmanModule, VectorKalman)

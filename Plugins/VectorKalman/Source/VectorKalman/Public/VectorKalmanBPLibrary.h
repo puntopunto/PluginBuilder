@@ -1,9 +1,9 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+﻿// Copyright Epic Games, Inc. All Rights Reserved.
 
 #pragma once
 
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "FVector_KalmanBPLibrary.generated.h"
+#include "VectorKalmanBPLibrary.generated.h"
 
 /* 
 *	Function library class.
@@ -23,10 +23,10 @@
 *	https://wiki.unrealengine.com/Custom_Blueprint_Node_Creation
 */
 UCLASS()
-class UFVector_KalmanBPLibrary : public UBlueprintFunctionLibrary
+class UVectorKalmanBPLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_UCLASS_BODY()
 
-	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Execute Sample function", Keywords = "FVector_Kalman sample test testing"), Category = "FVector_KalmanTesting")
-	static float FVector_KalmanSampleFunction(float Param);
+	UFUNCTION(BlueprintCallable, meta = (DisplayName = "Execute Sample function", Keywords = "VectorKalman sample test testing"), Category = "VectorKalmanTesting")
+	static float VectorKalmanSampleFunction(float Param);
 };

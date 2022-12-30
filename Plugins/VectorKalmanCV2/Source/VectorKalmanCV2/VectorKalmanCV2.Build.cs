@@ -1,10 +1,10 @@
-// Some copyright should be here...
+﻿// Copyright Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
 
-public class FVectorKalman : ModuleRules
+public class VectorKalmanCV2 : ModuleRules
 {
-	public FVectorKalman(ReadOnlyTargetRules target) : base(target)
+	public VectorKalmanCV2(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
@@ -26,6 +26,8 @@ public class FVectorKalman : ModuleRules
 			new string[]
 			{
 				"Core",
+				"VectorKalmanCV2Library",
+				"Projects"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -34,10 +36,6 @@ public class FVectorKalman : ModuleRules
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"CoreUObject",
-				"Engine",
-				"Slate",
-				"SlateCore",
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
