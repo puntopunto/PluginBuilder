@@ -7,7 +7,10 @@
 		{
 			"Name": "PluginBuilder",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"AugmentedReality"
+			]
 		}
 	],
 	"Plugins": [
