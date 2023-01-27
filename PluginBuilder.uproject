@@ -22,10 +22,6 @@
 			]
 		},
 		{
-			"Name": "CustomVector",
-			"Enabled": true
-		},
-		{
 			"Name": "RawInput",
 			"Enabled": true
 		},
@@ -86,7 +82,7 @@
 		},
 		{
 			"Name": "UTC_ShaderLibrary",
-			"Enabled": false,
+			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1a9719778c054f22974e24ea2e4c4beb"
 		},
 		{
@@ -134,7 +130,7 @@
 		},
 		{
 			"Name": "XRVisualization",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "TextureShare",
@@ -226,20 +222,20 @@
 		},
 		{
 			"Name": "SkeletalMeshModelingTools",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "SkeletalMerging",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "SiriusUtilityNodes",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/d5e0fa8a4b174b0a85db3697c1d53b98"
 		},
 		{
 			"Name": "SimpleHMD",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "ScriptPlugin",
@@ -262,7 +258,7 @@
 		},
 		{
 			"Name": "RuntimeTests",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "RigLogic",
@@ -270,7 +266,7 @@
 		},
 		{
 			"Name": "RHITests",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "RestartEditor",
@@ -287,7 +283,7 @@
 		},
 		{
 			"Name": "RenderDocPlugin",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "RenderTrace",
@@ -341,7 +337,7 @@
 		},
 		{
 			"Name": "RenderGraphInsights",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "PythonFoundationPackages",
@@ -353,7 +349,7 @@
 		},
 		{
 			"Name": "ProjectAcoustics",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/06cfe91228c04848a0f6d6f7fb7b40f0",
 			"SupportedTargetPlatforms": [
 				"Win64"
@@ -374,7 +370,7 @@
 		},
 		{
 			"Name": "PointCloud",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "SequencerPlaylists",
@@ -471,11 +467,11 @@
 		},
 		{
 			"Name": "GizmoFramework",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "NeuralNetworkInference",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "NetworkPredictionInsights",
@@ -566,7 +562,7 @@
 		},
 		{
 			"Name": "MLDeformerFramework",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "NearestNeighborModel",
@@ -574,7 +570,7 @@
 		},
 		{
 			"Name": "NeuralMorphModel",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "VertexDeltaModel",
@@ -582,7 +578,7 @@
 		},
 		{
 			"Name": "MLAdapter",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "MessagingDebugger",
@@ -625,7 +621,7 @@
 		},
 		{
 			"Name": "MACS",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/97bf6ab1e948431ea72ed687bed82e18"
 		},
 		{
@@ -634,7 +630,7 @@
 		},
 		{
 			"Name": "LidarPointCloud",
-			"Enabled": true,
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win64"
 			]
