@@ -82,18 +82,14 @@
 			"Name": "USDImporter",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
+				"Win64"
 			]
 		},
 		{
 			"Name": "USDMultiUser",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
+				"Win64"
 			]
 		},
 		{
@@ -219,11 +215,11 @@
 		},
 		{
 			"Name": "SkeletalMeshModelingTools",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "SkeletalMerging",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "SiriusUtilityNodes",
@@ -232,7 +228,7 @@
 		},
 		{
 			"Name": "SimpleHMD",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "ScriptPlugin",
@@ -330,7 +326,7 @@
 		},
 		{
 			"Name": "RenderGraphInsights",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "PythonFoundationPackages",
@@ -342,7 +338,7 @@
 		},
 		{
 			"Name": "ProjectAcoustics",
-			"Enabled": false,
+			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/06cfe91228c04848a0f6d6f7fb7b40f0",
 			"SupportedTargetPlatforms": [
 				"Win64"
@@ -363,7 +359,7 @@
 		},
 		{
 			"Name": "PointCloud",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "SequencerPlaylists",
@@ -486,8 +482,7 @@
 			"Name": "nDisplay",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux"
+				"Win64"
 			]
 		},
 		{
@@ -514,9 +509,7 @@
 			"Name": "MQTT",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
+				"Win64"
 			]
 		},
 		{
@@ -566,7 +559,7 @@
 		},
 		{
 			"Name": "NeuralMorphModel",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "VertexDeltaModel",
@@ -600,9 +593,7 @@
 			"Name": "MDLImporter",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
+				"Win64"
 			]
 		},
 		{
@@ -630,9 +621,7 @@
 			"Name": "LidarPointCloud",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux"
+				"Win64"
 			]
 		},
 		{
@@ -696,8 +685,7 @@
 			"Name": "LiveLinkOverNDisplay",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux"
+				"Win64"
 			]
 		},
 		{
@@ -897,16 +885,14 @@
 			"Name": "TwinmotionToUnreal",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac"
+				"Win64"
 			]
 		},
 		{
 			"Name": "DatasmithC4DImporter",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac"
+				"Win64"
 			]
 		},
 		{
@@ -1037,11 +1023,7 @@
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/87b0d05800a545d49bf858ef3458c4f7",
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac",
-				"Linux",
-				"Android",
-				"IOS"
+				"Win64"
 			]
 		},
 		{
@@ -1077,8 +1059,7 @@
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/433d28bdfb764ec5b2e60c4f45d5cb5c",
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux"
+				"Win64"
 			]
 		},
 		{
@@ -1251,16 +1232,14 @@
 			"Name": "VirtualScouting",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux"
+				"Win64"
 			]
 		},
 		{
 			"Name": "VirtualCamera",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux"
+				"Win64"
 			]
 		},
 		{

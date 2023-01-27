@@ -215,11 +215,11 @@
 		},
 		{
 			"Name": "SkeletalMeshModelingTools",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "SkeletalMerging",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "SiriusUtilityNodes",
@@ -228,7 +228,7 @@
 		},
 		{
 			"Name": "SimpleHMD",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "ScriptPlugin",
@@ -326,7 +326,7 @@
 		},
 		{
 			"Name": "RenderGraphInsights",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "PythonFoundationPackages",
@@ -338,7 +338,7 @@
 		},
 		{
 			"Name": "ProjectAcoustics",
-			"Enabled": false,
+			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/06cfe91228c04848a0f6d6f7fb7b40f0",
 			"SupportedTargetPlatforms": [
 				"Win64"
@@ -359,7 +359,7 @@
 		},
 		{
 			"Name": "PointCloud",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "SequencerPlaylists",
@@ -559,7 +559,7 @@
 		},
 		{
 			"Name": "NeuralMorphModel",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "VertexDeltaModel",
@@ -1232,16 +1232,14 @@
 			"Name": "VirtualScouting",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux"
+				"Win64"
 			]
 		},
 		{
 			"Name": "VirtualCamera",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux"
+				"Win64"
 			]
 		},
 		{
