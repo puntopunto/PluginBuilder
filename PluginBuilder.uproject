@@ -16,7 +16,7 @@
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
-			"Enabled": true,
+			"Enabled": false,
 			"TargetAllowList": [
 				"Editor"
 			]
@@ -71,30 +71,34 @@
 		},
 		{
 			"Name": "VirtualHeightfieldMesh",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "UTC_ShaderLibrary",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1a9719778c054f22974e24ea2e4c4beb"
 		},
 		{
 			"Name": "USDImporter",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac",
+				"Linux"
 			]
 		},
 		{
 			"Name": "USDMultiUser",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac",
+				"Linux"
 			]
 		},
 		{
 			"Name": "ModelViewViewModel",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "UIFramework",
@@ -115,11 +119,11 @@
 		},
 		{
 			"Name": "ZoneGraphAnnotations",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "ZoneGraph",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "XRVisualization",
@@ -127,7 +131,7 @@
 		},
 		{
 			"Name": "TextureShare",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "TextToSpeech",
@@ -159,7 +163,7 @@
 		},
 		{
 			"Name": "StaticMeshEditorModeling",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "StateTree",
@@ -215,15 +219,15 @@
 		},
 		{
 			"Name": "SkeletalMeshModelingTools",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "SkeletalMerging",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "SiriusUtilityNodes",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/d5e0fa8a4b174b0a85db3697c1d53b98"
 		},
 		{
@@ -236,11 +240,11 @@
 		},
 		{
 			"Name": "SampleToolsEditorMode",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "DummyMeshReconstructor",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "RivermaxMedia",
@@ -280,11 +284,11 @@
 		},
 		{
 			"Name": "RenderTrace",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "RenderGrid",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "RemoteDatabaseSupport",
@@ -341,7 +345,8 @@
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/06cfe91228c04848a0f6d6f7fb7b40f0",
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Android"
 			]
 		},
 		{
@@ -359,7 +364,7 @@
 		},
 		{
 			"Name": "PointCloud",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "SequencerPlaylists",
@@ -411,10 +416,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "OptionalMobileFeaturesBPLibrary",
-			"Enabled": true
-		},
-		{
 			"Name": "OpenCVLensDistortion",
 			"Enabled": true
 		},
@@ -427,10 +428,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "OnlineServicesOSSAdapter",
-			"Enabled": true
-		},
-		{
 			"Name": "OnlineServicesNull",
 			"Enabled": true
 		},
@@ -440,15 +437,15 @@
 		},
 		{
 			"Name": "OneSkyLocalizationService",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "NiagaraSimCaching",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "NiagaraFluids",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "ExampleCustomDataInterface",
@@ -456,11 +453,11 @@
 		},
 		{
 			"Name": "GizmoFramework",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "NeuralNetworkInference",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "NetworkPredictionInsights",
@@ -482,7 +479,8 @@
 			"Name": "nDisplay",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Linux"
 			]
 		},
 		{
@@ -491,11 +489,11 @@
 		},
 		{
 			"Name": "NaniteDisplacedMesh",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "Mutable",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "AnalyticsMulticast",
@@ -507,18 +505,18 @@
 		},
 		{
 			"Name": "MQTT",
-			"Enabled": true,
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win64"
 			]
 		},
 		{
 			"Name": "MoviePipelineMaskRenderPass",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "MovieRenderPipeline",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "MotoSynth",
@@ -530,19 +528,19 @@
 		},
 		{
 			"Name": "MotionWarping",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "MotionTrajectory",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "ModularGameplay",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "ModularFeatures_ExtraActions",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/a718e1ae4fa741869b8f7aaea1434a8d"
 		},
 		{
@@ -551,27 +549,27 @@
 		},
 		{
 			"Name": "MLDeformerFramework",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "NearestNeighborModel",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "NeuralMorphModel",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "VertexDeltaModel",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "MLAdapter",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "MessagingDebugger",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "MediaMovieStreamer",
@@ -593,33 +591,35 @@
 			"Name": "MDLImporter",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac",
+				"Linux"
 			]
 		},
 		{
 			"Name": "MassGameplay",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "MassEntity",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "MakeCookedEditorAsDLC",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "MACS",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/97bf6ab1e948431ea72ed687bed82e18"
 		},
 		{
 			"Name": "LightWeightInstancesEditor",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "LidarPointCloud",
-			"Enabled": true,
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win64"
 			]
@@ -630,7 +630,7 @@
 		},
 		{
 			"Name": "LDAssistant",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/51c5a9a0d5f84beba23aab69bed8d28c"
 		},
 		{
@@ -643,62 +643,62 @@
 		},
 		{
 			"Name": "LandscapePatch",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "Landmass",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "LiveLinkXR",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "LiveLinkVRPN",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "LiveLinkPrestonMDR",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "LiveLinkMasterLockit",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "LiveLinkLens",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "LiveLinkFreeD",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "LiveLinkFaceImporter",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "LiveLinkCamera",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "LiveLinkOverNDisplay",
-			"Enabled": true,
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win64"
 			]
 		},
 		{
 			"Name": "LiveLinkCurveDebugUI",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "LiveLinkControlRig",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "LiveLink",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "JsonBlueprintUtilities",
@@ -710,7 +710,7 @@
 		},
 		{
 			"Name": "TraceSourceFilters",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "ImpostorBaker",
@@ -738,7 +738,7 @@
 		},
 		{
 			"Name": "HLSLMaterial",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/871a7ec4baca4220a8a8a8422629f55e"
 		},
 		{
@@ -758,7 +758,7 @@
 		},
 		{
 			"Name": "HairModelingToolset",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "GuidedTutorials",
@@ -766,15 +766,15 @@
 		},
 		{
 			"Name": "HairStrands",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "GPULightmass",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "GizmoEdMode",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "GeoReferencing",
@@ -790,11 +790,11 @@
 		},
 		{
 			"Name": "FunctionalTestingEditor",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "Flurry",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "FileLogging",
@@ -802,7 +802,7 @@
 		},
 		{
 			"Name": "FieldSystemPlugin",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "FbxAutomationTestBuilder",
@@ -818,7 +818,7 @@
 		},
 		{
 			"Name": "EpicStageApp",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "ElectraUtil",
@@ -838,7 +838,7 @@
 		},
 		{
 			"Name": "EditorTests",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "DTLSHandlerComponent",
@@ -866,11 +866,11 @@
 		},
 		{
 			"Name": "DeformerGraph",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "DebugFunctionLibraryLite",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/19bd81002c7643aeab6b002563cbe0dd"
 		},
 		{
@@ -879,18 +879,19 @@
 		},
 		{
 			"Name": "DatasmithRuntime",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "TwinmotionToUnreal",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac"
 			]
 		},
 		{
 			"Name": "DatasmithC4DImporter",
-			"Enabled": true,
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win64"
 			]
@@ -980,7 +981,7 @@
 		},
 		{
 			"Name": "ComputeFramework",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "Composure",
@@ -992,7 +993,7 @@
 		},
 		{
 			"Name": "CommonConversation",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "CommonUI",
@@ -1023,7 +1024,11 @@
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/87b0d05800a545d49bf858ef3458c4f7",
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac",
+				"Linux",
+				"Android",
+				"IOS"
 			]
 		},
 		{
@@ -1044,7 +1049,7 @@
 		},
 		{
 			"Name": "BlueprintMaterialTextureNodes",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "BlueprintFileUtils",
@@ -1056,7 +1061,7 @@
 		},
 		{
 			"Name": "BlackmagicMedia",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/433d28bdfb764ec5b2e60c4f45d5cb5c",
 			"SupportedTargetPlatforms": [
 				"Win64"
@@ -1080,7 +1085,7 @@
 		},
 		{
 			"Name": "AutomationDriverTests",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "AudioMotorSim",
@@ -1152,7 +1157,7 @@
 		},
 		{
 			"Name": "AlembicHairImporter",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "AESHandlerComponent",
@@ -1184,11 +1189,11 @@
 		},
 		{
 			"Name": "MassCrowd",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "MassAI",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "GameplayBehaviors",
@@ -1196,7 +1201,7 @@
 		},
 		{
 			"Name": "OptiXDenoise",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "ActorInteractionPlugin",
@@ -1210,7 +1215,7 @@
 		},
 		{
 			"Name": "DialogueSx",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/401cd4398af24470a14e79637f383d4e"
 		},
 		{
@@ -1232,14 +1237,16 @@
 			"Name": "VirtualScouting",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Linux"
 			]
 		},
 		{
 			"Name": "VirtualCamera",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Linux"
 			]
 		},
 		{
