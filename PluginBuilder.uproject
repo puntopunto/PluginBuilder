@@ -82,14 +82,18 @@
 			"Name": "USDImporter",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac",
+				"Linux"
 			]
 		},
 		{
 			"Name": "USDMultiUser",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac",
+				"Linux"
 			]
 		},
 		{
@@ -456,11 +460,11 @@
 		},
 		{
 			"Name": "GizmoFramework",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "NeuralNetworkInference",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "NetworkPredictionInsights",
@@ -482,7 +486,8 @@
 			"Name": "nDisplay",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Linux"
 			]
 		},
 		{
@@ -509,7 +514,9 @@
 			"Name": "MQTT",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac",
+				"Linux"
 			]
 		},
 		{
@@ -551,7 +558,7 @@
 		},
 		{
 			"Name": "MLDeformerFramework",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "NearestNeighborModel",
@@ -567,7 +574,7 @@
 		},
 		{
 			"Name": "MLAdapter",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "MessagingDebugger",
@@ -593,7 +600,9 @@
 			"Name": "MDLImporter",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac",
+				"Linux"
 			]
 		},
 		{
@@ -610,7 +619,7 @@
 		},
 		{
 			"Name": "MACS",
-			"Enabled": false,
+			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/97bf6ab1e948431ea72ed687bed82e18"
 		},
 		{
@@ -619,9 +628,11 @@
 		},
 		{
 			"Name": "LidarPointCloud",
-			"Enabled": false,
+			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac",
+				"Linux"
 			]
 		},
 		{
@@ -685,7 +696,8 @@
 			"Name": "LiveLinkOverNDisplay",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Linux"
 			]
 		},
 		{
@@ -885,14 +897,16 @@
 			"Name": "TwinmotionToUnreal",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac"
 			]
 		},
 		{
 			"Name": "DatasmithC4DImporter",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac"
 			]
 		},
 		{
@@ -1023,7 +1037,11 @@
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/87b0d05800a545d49bf858ef3458c4f7",
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac",
+				"Linux",
+				"Android",
+				"IOS"
 			]
 		},
 		{
@@ -1059,7 +1077,8 @@
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/433d28bdfb764ec5b2e60c4f45d5cb5c",
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Linux"
 			]
 		},
 		{
@@ -1204,37 +1223,6 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ca842c00ec0d4db0b3aad17701e1637b"
 		},
 		{
-			"Name": "AndroidDeviceProfileSelector",
-			"Enabled": false
-		},
-		{
-			"Name": "AndroidMedia",
-			"Enabled": false
-		},
-		{
-			"Name": "AndroidMoviePlayer",
-			"Enabled": false
-		},
-		{
-			"Name": "OnlineSubsystemGooglePlay",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"Android"
-			]
-		},
-		{
-			"Name": "AndroidPermission",
-			"Enabled": false
-		},
-		{
-			"Name": "AndroidFileServer",
-			"Enabled": false
-		},
-		{
-			"Name": "AppleMoviePlayer",
-			"Enabled": false
-		},
-		{
 			"Name": "DirGravity",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/1e8883ab1e2f44f0984006d4ab67acd4"
@@ -1285,10 +1273,6 @@
 			"SupportedTargetPlatforms": [
 				"Win64"
 			]
-		},
-		{
-			"Name": "OpenImageDenoise",
-			"Enabled": false
 		}
 	]
 }
