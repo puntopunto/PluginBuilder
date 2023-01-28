@@ -236,7 +236,7 @@
 		},
 		{
 			"Name": "SampleToolsEditorMode",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "DummyMeshReconstructor",
@@ -359,7 +359,7 @@
 		},
 		{
 			"Name": "PointCloud",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "SequencerPlaylists",
@@ -436,11 +436,11 @@
 		},
 		{
 			"Name": "NiagaraSimCaching",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "NiagaraFluids",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "ExampleCustomDataInterface",
@@ -487,7 +487,7 @@
 		},
 		{
 			"Name": "Mutable",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "AnalyticsMulticast",
@@ -522,11 +522,11 @@
 		},
 		{
 			"Name": "MotionWarping",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "MotionTrajectory",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "ModularGameplay",
@@ -671,7 +671,7 @@
 		},
 		{
 			"Name": "LiveLinkCamera",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "LiveLinkOverNDisplay",
@@ -702,7 +702,7 @@
 		},
 		{
 			"Name": "TraceSourceFilters",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "ImpostorBaker",
@@ -750,7 +750,7 @@
 		},
 		{
 			"Name": "HairModelingToolset",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "GuidedTutorials",
@@ -758,11 +758,11 @@
 		},
 		{
 			"Name": "HairStrands",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "GPULightmass",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "GizmoEdMode",
@@ -782,11 +782,11 @@
 		},
 		{
 			"Name": "FunctionalTestingEditor",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "Flurry",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "FileLogging",
@@ -794,7 +794,7 @@
 		},
 		{
 			"Name": "FieldSystemPlugin",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "FbxAutomationTestBuilder",
@@ -810,7 +810,7 @@
 		},
 		{
 			"Name": "EpicStageApp",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "ElectraUtil",
@@ -858,11 +858,11 @@
 		},
 		{
 			"Name": "DeformerGraph",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "DebugFunctionLibraryLite",
-			"Enabled": false,
+			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/19bd81002c7643aeab6b002563cbe0dd"
 		},
 		{
@@ -871,7 +871,7 @@
 		},
 		{
 			"Name": "DatasmithRuntime",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "TwinmotionToUnreal",
@@ -882,7 +882,7 @@
 		},
 		{
 			"Name": "DatasmithC4DImporter",
-			"Enabled": false,
+			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Win64"
 			]
@@ -972,7 +972,7 @@
 		},
 		{
 			"Name": "ComputeFramework",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "Composure",
@@ -984,7 +984,7 @@
 		},
 		{
 			"Name": "CommonConversation",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "CommonUI",
@@ -1072,7 +1072,7 @@
 		},
 		{
 			"Name": "AutomationDriverTests",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "AudioMotorSim",

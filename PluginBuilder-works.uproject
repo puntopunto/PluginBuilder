@@ -82,14 +82,18 @@
 			"Name": "USDImporter",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac",
+				"Linux"
 			]
 		},
 		{
 			"Name": "USDMultiUser",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac",
+				"Linux"
 			]
 		},
 		{
@@ -341,7 +345,8 @@
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/06cfe91228c04848a0f6d6f7fb7b40f0",
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Android"
 			]
 		},
 		{
@@ -474,7 +479,8 @@
 			"Name": "nDisplay",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Linux"
 			]
 		},
 		{
@@ -585,7 +591,9 @@
 			"Name": "MDLImporter",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac",
+				"Linux"
 			]
 		},
 		{
@@ -877,7 +885,8 @@
 			"Name": "TwinmotionToUnreal",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac"
 			]
 		},
 		{
@@ -1015,7 +1024,11 @@
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/87b0d05800a545d49bf858ef3458c4f7",
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Mac",
+				"Linux",
+				"Android",
+				"IOS"
 			]
 		},
 		{
@@ -1224,14 +1237,16 @@
 			"Name": "VirtualScouting",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Linux"
 			]
 		},
 		{
 			"Name": "VirtualCamera",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
-				"Win64"
+				"Win64",
+				"Linux"
 			]
 		},
 		{
