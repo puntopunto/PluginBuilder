@@ -436,10 +436,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "OneSkyLocalizationService",
-			"Enabled": false
-		},
-		{
 			"Name": "NiagaraSimCaching",
 			"Enabled": false
 		},
@@ -453,11 +449,11 @@
 		},
 		{
 			"Name": "GizmoFramework",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "NeuralNetworkInference",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "NetworkPredictionInsights",
@@ -489,11 +485,11 @@
 		},
 		{
 			"Name": "NaniteDisplacedMesh",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "Mutable",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "AnalyticsMulticast",
