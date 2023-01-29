@@ -945,10 +945,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "RenderGrid",
-			"Enabled": true
-		},
-		{
 			"Name": "RenderTrace",
 			"Enabled": true
 		},
