@@ -770,7 +770,7 @@
 		},
 		{
 			"Name": "GPULightmass",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "GizmoEdMode",
@@ -981,7 +981,7 @@
 		},
 		{
 			"Name": "ComputeFramework",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "Composure",
