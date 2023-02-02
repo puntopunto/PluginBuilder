@@ -1145,10 +1145,6 @@
 			"Enabled": false
 		},
 		{
-			"Name": "CLionSourceCodeAccess",
-			"Enabled": false
-		},
-		{
 			"Name": "CodeLiteSourceCodeAccess",
 			"Enabled": false
 		},
@@ -1158,10 +1154,6 @@
 			"SupportedTargetPlatforms": [
 				"Mac"
 			]
-		},
-		{
-			"Name": "VisualStudioCodeSourceCodeAccess",
-			"Enabled": false
 		},
 		{
 			"Name": "AESGCMHandlerComponent",
@@ -1282,6 +1274,14 @@
 				"Win64",
 				"Linux"
 			]
+		},
+		{
+			"Name": "VisualStudioCodeSourceCodeAccess",
+			"Enabled": false
+		},
+		{
+			"Name": "CLionSourceCodeAccess",
+			"Enabled": false
 		}
 	]
 }
