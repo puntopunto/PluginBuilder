@@ -215,7 +215,7 @@
 		},
 		{
 			"Name": "ActorInteractionPlugin",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ca842c00ec0d4db0b3aad17701e1637b"
 		},
 		{
